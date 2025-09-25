@@ -1,13 +1,13 @@
 package com.funjava.ml;
 
 /**
- * Hello world!
+ * Gerbang Utama dari APPP kita
+ * 
+ * @[author] ghozi_waridi
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
 }
