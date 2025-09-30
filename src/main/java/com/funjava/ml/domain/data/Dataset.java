@@ -1,4 +1,4 @@
-package com.funjava.ml.core;
+package com.funjava.ml.domain.data;
 
 /**
  *

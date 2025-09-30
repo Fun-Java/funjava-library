@@ -1,4 +1,4 @@
-package com.funjava.ml.algorithms;
+package com.funjava.ml.domain.usecase;
 
 /**
  * Algorithms class
