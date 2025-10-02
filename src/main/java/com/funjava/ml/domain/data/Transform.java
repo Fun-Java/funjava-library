@@ -7,6 +7,7 @@ package com.funjava.ml.domain.data;
  * @author Ghozi-Waridi
  *
  */
-public interface Transform<I, O> {
-  O apply(I input);
+
+public interface Transform {
+  DataPoint apply(DataPoint dataPoint);
 }
