@@ -3,7 +3,7 @@ package com.funjava.ml;
 /**
  * Gerbang Utama dari APPP kita
  * 
- * @[author] ghozi_waridi
+ * @author Ghozi-Waridi
  *
  */
 public class App {

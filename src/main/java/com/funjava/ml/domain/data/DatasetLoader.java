@@ -1,5 +1,7 @@
 package com.funjava.ml.domain.data;
 
+import java.util.List;
+
 /**
  *
  * DataSet merupakan kumpulan dari DataPoint
@@ -9,9 +11,19 @@ package com.funjava.ml.domain.data;
  * @author Ghozi-Waridi
  */
 
-public class Dataset {
+public class DatasetLoader {
+  private List<DataPoint> dataset;
 
-  public static class Builder {
+  /**
+   * Methode Load dataaset CSV
+   */
 
-  }
+  /**
+   * Methode Load dataset Image
+   */
+
+  /**
+   * Methode Convert to DataPoint
+   */
+
 }
