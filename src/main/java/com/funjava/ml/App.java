@@ -1,5 +1,7 @@
 package com.funjava.ml;
 
+import com.funjava.ml.domain.data.DatasetLoader;
+
 /**
  * Gerbang Utama dari APPP kita
  * 
@@ -8,6 +10,8 @@ package com.funjava.ml;
  */
 public class App {
   public static void main(String[] args) {
-    System.out.println("Hello World! anjay gurinjay");
+    DatasetLoader dataset = new DatasetLoader();
+    dataset.loadCsv("Winedataset.csv");
+    dataset.show();
   }
 }
