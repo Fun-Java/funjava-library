@@ -19,7 +19,7 @@ public final class DataPoint {
    * @var label berisi nilai target dari feature.
    */
   private final double[] features;
-  private final double label;
+  private final String label;
 
   /**
    * Constructor untuk menambahkan data baru ke intance variabel
@@ -27,7 +27,7 @@ public final class DataPoint {
    * @param features berisi array dari 1 baris data.
    * @param label    berisi nilai target dari feature.
    */
-  public DataPoint(double[] features, double label) {
+  public DataPoint(double[] features, String label) {
     this.features = features;
     this.label = label;
   }
@@ -46,7 +46,7 @@ public final class DataPoint {
    * 
    * @return label dari instance varibel.
    */
-  public double getLabel() {
+  public String getLabel() {
     return label;
   }
 
@@ -54,13 +54,14 @@ public final class DataPoint {
    * Membandingkan dua object untuk mengetahui apakah data sama atau tidak.
    * Data yang di maksud adalah feature.
    */
-  @Override
-  public boolean equals(Object o) {
-    if (this == o)
-      return true;
-    if (o == null || getClass() != o.getClass())
-      return false;
-    DataPoint dataPoint = (DataPoint) o;
-    return Double.compare(dataPoint.label, label) == 0 && Arrays.equals(features, dataPoint.features);
-  }
+  // @Override
+  // public boolean equals(Object o) {
+  // if (this == o)
+  // return true;
+  // if (o == null || getClass() != o.getClass())
+  // return false;
+  // DataPoint dataPoint = (DataPoint) o;
+  // return Double.compare(dataPoint.label, label) == 0 && Arrays.equals(features,
+  // dataPoint.features);
+  // }
 }
